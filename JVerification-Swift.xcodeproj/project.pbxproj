@@ -16,6 +16,12 @@
 		418D389327BD4211002986CD /* JVerification_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D389227BD4211002986CD /* JVerification_SwiftTests.swift */; };
 		418D389D27BD4211002986CD /* JVerification_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D389C27BD4211002986CD /* JVerification_SwiftUITests.swift */; };
 		418D389F27BD4211002986CD /* JVerification_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D389E27BD4211002986CD /* JVerification_SwiftUITestsLaunchTests.swift */; };
+		418D38B227BD5612002986CD /* ESOneKeyLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418D38AC27BD5612002986CD /* ESOneKeyLogin.framework */; };
+		418D38B327BD5612002986CD /* JVerification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418D38AD27BD5612002986CD /* JVerification.framework */; };
+		418D38B427BD5612002986CD /* TYRZUISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418D38AE27BD5612002986CD /* TYRZUISDK.framework */; };
+		418D38B527BD5612002986CD /* account_login_sdk_noui_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418D38AF27BD5612002986CD /* account_login_sdk_noui_core.framework */; };
+		418D38B627BD5612002986CD /* OAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418D38B027BD5612002986CD /* OAuth.framework */; };
+		418D38B727BD5612002986CD /* EAccountApiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418D38B127BD5612002986CD /* EAccountApiSDK.framework */; };
 		86A2839A710CEC2D3994FDF9 /* Pods_JVerification_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D992B29BA9ADF60A7B9D1930 /* Pods_JVerification_Swift.framework */; };
 		BFDE918A60C293010EFC18D1 /* Pods_JVerification_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C9F9716FE968A4D01BDB6D /* Pods_JVerification_SwiftTests.framework */; };
 		C80B63A88F4FC069C46AF365 /* Pods_JVerification_Swift_JVerification_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D776E70CBFF811C6B82F97A /* Pods_JVerification_Swift_JVerification_SwiftUITests.framework */; };
@@ -52,6 +58,12 @@
 		418D389827BD4211002986CD /* JVerification-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JVerification-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		418D389C27BD4211002986CD /* JVerification_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVerification_SwiftUITests.swift; sourceTree = "<group>"; };
 		418D389E27BD4211002986CD /* JVerification_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVerification_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		418D38AC27BD5612002986CD /* ESOneKeyLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ESOneKeyLogin.framework; sourceTree = "<group>"; };
+		418D38AD27BD5612002986CD /* JVerification.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JVerification.framework; sourceTree = "<group>"; };
+		418D38AE27BD5612002986CD /* TYRZUISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TYRZUISDK.framework; sourceTree = "<group>"; };
+		418D38AF27BD5612002986CD /* account_login_sdk_noui_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = account_login_sdk_noui_core.framework; sourceTree = "<group>"; };
+		418D38B027BD5612002986CD /* OAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OAuth.framework; sourceTree = "<group>"; };
+		418D38B127BD5612002986CD /* EAccountApiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EAccountApiSDK.framework; sourceTree = "<group>"; };
 		4D776E70CBFF811C6B82F97A /* Pods_JVerification_Swift_JVerification_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVerification_Swift_JVerification_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FA6BE489C89D89FE11B10C /* Pods-JVerification-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVerification-Swift.debug.xcconfig"; path = "Target Support Files/Pods-JVerification-Swift/Pods-JVerification-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		61C9F9716FE968A4D01BDB6D /* Pods_JVerification_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVerification_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +80,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418D38B627BD5612002986CD /* OAuth.framework in Frameworks */,
+				418D38B427BD5612002986CD /* TYRZUISDK.framework in Frameworks */,
 				86A2839A710CEC2D3994FDF9 /* Pods_JVerification_Swift.framework in Frameworks */,
+				418D38B727BD5612002986CD /* EAccountApiSDK.framework in Frameworks */,
+				418D38B527BD5612002986CD /* account_login_sdk_noui_core.framework in Frameworks */,
+				418D38B327BD5612002986CD /* JVerification.framework in Frameworks */,
+				418D38B227BD5612002986CD /* ESOneKeyLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,13 +119,13 @@
 				71A7D6624E86F6BF3B3B7726 /* Pods-JVerification-SwiftTests.debug.xcconfig */,
 				D445109B65E6B17844863D63 /* Pods-JVerification-SwiftTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		418D386F27BD420F002986CD = {
 			isa = PBXGroup;
 			children = (
+				418D38AB27BD5612002986CD /* Vendor */,
 				418D387A27BD420F002986CD /* JVerification-Swift */,
 				418D389127BD4211002986CD /* JVerification-SwiftTests */,
 				418D389B27BD4211002986CD /* JVerification-SwiftUITests */,
@@ -156,6 +174,19 @@
 				418D389E27BD4211002986CD /* JVerification_SwiftUITestsLaunchTests.swift */,
 			);
 			path = "JVerification-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		418D38AB27BD5612002986CD /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				418D38AC27BD5612002986CD /* ESOneKeyLogin.framework */,
+				418D38AD27BD5612002986CD /* JVerification.framework */,
+				418D38AE27BD5612002986CD /* TYRZUISDK.framework */,
+				418D38AF27BD5612002986CD /* account_login_sdk_noui_core.framework */,
+				418D38B027BD5612002986CD /* OAuth.framework */,
+				418D38B127BD5612002986CD /* EAccountApiSDK.framework */,
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 		CE443C098E6FE81733C443D2 /* Frameworks */ = {
@@ -480,7 +511,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -535,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -553,6 +584,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "JVerification-Swift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -560,6 +595,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -581,6 +617,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "JVerification-Swift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -588,6 +628,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

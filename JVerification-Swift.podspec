@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   JVerification Swift封装。以简化Swift调用。
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/JVerification-Swift"
+  spec.homepage     = "https://github.com/acekiller/JVerification-Swift"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/JVerification-Swift.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/acekiller/JVerification-Swift.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 

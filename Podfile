@@ -4,7 +4,7 @@
 target 'JVerification-Swift' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'JVerification'	# -2.7.7
+ # pod 'JVerification'	# -2.7.7
 
   # Pods for JVerification-Swift
 
