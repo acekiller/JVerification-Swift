@@ -1,0 +1,20 @@
+PODS:
+  - JCore (3.1.2)
+  - JVerification (2.7.7):
+    - JCore (>= 2.1.6)
+
+DEPENDENCIES:
+  - JVerification
+
+SPEC REPOS:
+  trunk:
+    - JCore
+    - JVerification
+
+SPEC CHECKSUMS:
+  JCore: bde439310a00c7a0770955b20c9160a042db0db5
+  JVerification: 2807114d4eedaf24bd5951c1e88ead4a3e641066
+
+PODFILE CHECKSUM: bb58632b0490ffeddb48312c89f2ca0d7d97c7de
+
+COCOAPODS: 1.11.2

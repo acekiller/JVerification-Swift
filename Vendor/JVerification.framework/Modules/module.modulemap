@@ -1,0 +1,4 @@
+framework module JVerification {
+  header "JVERIFICATIONService.h"
+  export *
+}
