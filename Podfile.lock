@@ -1,3 +1,23 @@
-PODFILE CHECKSUM: 811a3e283358d3a8c704c9eb455d29ab46599b29
+PODS:
+  - JCore (3.1.2)
+  - JVerification-Swift (2.7.7):
+    - JCore (< 6.0.0, >= 2.1.6)
+
+DEPENDENCIES:
+  - JVerification-Swift (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - JCore
+
+EXTERNAL SOURCES:
+  JVerification-Swift:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  JCore: bde439310a00c7a0770955b20c9160a042db0db5
+  JVerification-Swift: 0b6f238fd9f4925e8edde103ec88698e1ce1c5e8
+
+PODFILE CHECKSUM: 38cc0c8991482b38360004b3aee6aee517b70ea1
 
 COCOAPODS: 1.11.2

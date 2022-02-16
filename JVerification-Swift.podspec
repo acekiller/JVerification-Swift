@@ -135,7 +135,7 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
-  spec.ios.deployment_target = '11.0'
+  spec.ios.deployment_target = '9.0'
   spec.swift_version = '5.0'
   spec.static_framework = true
   
@@ -146,5 +146,6 @@ Pod::Spec.new do |spec|
   spec.frameworks  = 'Foundation', 'CoreGraphics', 'UIKit', 'CoreTelephony', 'AudioToolbox', 'SystemConfiguration', 'CoreFoundation', 'CFNetwork', 'AVFoundation', 'CoreAudio', 'Security', 'CoreLocation', 'MobileCoreServices', 'WebKit'
   spec.libraries = 'z', 'c++', 'resolv', 'sqlite3.0'
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+  spec.dependency 'JCore', '>= 2.1.6', '< 6.0.0'
 
 end
