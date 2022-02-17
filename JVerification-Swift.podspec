@@ -144,8 +144,8 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'Vendor/*.framework'
   # spec.frameworks  = 'Security', 'CoreGraphics', 'WebKit'
   spec.frameworks  = 'Foundation', 'CoreGraphics', 'UIKit', 'CoreTelephony', 'AudioToolbox', 'SystemConfiguration', 'CoreFoundation', 'CFNetwork', 'AVFoundation', 'CoreAudio', 'Security', 'CoreLocation', 'MobileCoreServices', 'WebKit'
-  spec.libraries = 'z', 'c++', 'resolv', 'sqlite3.0'
-  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
+  spec.libraries = 'z', 'c++', 'resolv', 'sqlite3'
+  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   spec.dependency 'JCore', '>= 2.1.6', '< 6.0.0'
 
 end
